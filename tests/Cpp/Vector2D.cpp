@@ -12,23 +12,23 @@ public:
 
     // Operator overloads
     Vector2D operator+(const Vector2D &v) const {
-        return Vector2D(X + v.X, Y + v.Y);
+        return Vector2D(this->X + v.X, this->Y + v.Y);
     }
 
     Vector2D operator-(const Vector2D &v) const {
-        return Vector2D(X - v.X, Y - v.Y);
+        return Vector2D(this->X - v.X, this->Y - v.Y);
     }
 
     Vector2D operator-() const {
-        return Vector2D(-X, -Y);
+        return Vector2D(-(this->X), -(this->Y));
     }
 
     Vector2D operator*(float s) const {
-        return Vector2D(X * s, Y * s);
+        return Vector2D(this->X * s, this->Y * s);
     }
 
     Vector2D operator/(float s) const {
-        return Vector2D(X / s, Y / s);
+        return Vector2D(this->X / s, this->Y / s);
     }
 };
 
