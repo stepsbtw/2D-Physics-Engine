@@ -1,4 +1,4 @@
-public static class FlatMath{
+public static class Math2D{
     // Module
     public static float Length(Vector2D v){
         return sqrt((v.X)*(v.X) + (v.Y)*v.Y);

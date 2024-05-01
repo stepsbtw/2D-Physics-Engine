@@ -1,4 +1,5 @@
-struct Vector2D{
+class Vector2D{
+public:
     float X;
     float Y;
 
