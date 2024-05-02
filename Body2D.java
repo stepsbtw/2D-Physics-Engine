@@ -17,15 +17,23 @@ public abstract class Body2D{
     }
 
     public Vector2D getPosition() {
-        return position;
+        return this.position;
     }
 
-    public void setPosition(Vector2D position) {
+    public void setPosition(Vector2D position){
         this.position = position;
     }
 
+    public float getX(){
+        return this.position.X;
+    }
+    
+    public float getY(){
+        return this.position.Y;
+    }
+
     public Vector2D getVelocity() {
-        return velocity;
+        return this.velocity;
     }
 
     public void setVelocity(Vector2D velocity) {
