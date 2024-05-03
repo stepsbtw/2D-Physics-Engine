@@ -1,3 +1,5 @@
+package Main;
+
 public class World2D{
     
     // min and max size
