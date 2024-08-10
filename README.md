@@ -1,6 +1,6 @@
 # 2D Physics Engine
 
-This project is a 2D Physics Engine that simulates various physical behaviors using basic physics principles.
+This project is aiming to create an Engine that simulates various physical behaviors using basic physics principles.
 
 The engine should be capable of handling multiple 2D objects and simulating interactions such as collisions, gravity, and other forces.
 
